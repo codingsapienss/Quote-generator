@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:cursive
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(30deg, rgba(63, 94, 251, 1) 24%, rgba(252, 40, 83, 1) 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 1em;
+    width: 90%;
+    max-width:720px;
+    height: 70%;
+    max-height: 1000px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 2px solid rgba(255, 255, 255, .5);
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(5px);
+}
+
+.quotes {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 1em ;
+    font-size: 2rem;
+    color: rgb(255, 255, 255 , 0.8);
+    
+}
+
+.author {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight:900 ;
+    color: rgb(177, 5, 100,0.6);
+}
+
+button {
+    width: max-content;
+    padding: .5em;
+    border-radius: 10px;
+    margin: 1em auto;
+    border-radius: 15px;
+    color: rgb(7, 15, 88);
+    background: rgba(255, 255, 255, .1),no-repeat;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 2px solid rgba(255, 255, 255, .5);
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
